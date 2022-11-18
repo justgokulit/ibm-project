@@ -1,0 +1,89 @@
+html{
+    scroll-behavior: smooth;
+ }
+ *::selection{
+    color: #000000;
+    background-color:#505050;
+ }body{
+    background: url(../Images/loginBackground.jpg) no-repeat fixed center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0%;
+   
+    
+}
+.logform{
+    
+    background-color:#fff;
+    display: inline-block;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    box-sizing: border-box;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    opacity: 0.8;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0,0.3);
+    width: 500px;
+    height: 700px;
+  
+} 
+.logform .t{
+    font-size: 25px;
+}
+.logform .s{
+    margin-bottom: 10px;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    line-height: 50px;
+    
+}
+a:hover{
+    text-decoration:underline;
+    color:green
+}
+
+
+input[type='text'],input[type='password']{
+    border: none;
+    background: transparent;
+    border-bottom:1px solid #fff;
+    outline-style: none;
+}
+
+
+
+
+input{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* ============================================== submit button ===================================== */
+input[type='submit']:hover{
+    cursor: pointer;
+    background-color:rgb(15, 75, 4);
+    
+}
+.submitButton:active{
+     transform: scale(1.1);
+}
+
+/* -------------------------------------------------------- */
+.sub-btn,.reset-btn{
+ 
+    width: 100px;
+    border: 0px;
+    border-radius:5px ;
+    background-color:red;
+    padding: 5px;
+    margin-top: 30px;
+}
